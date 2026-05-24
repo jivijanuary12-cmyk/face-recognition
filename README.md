@@ -35,7 +35,7 @@ python -m pip install -r requirements.txt
 ### 1) Capture faces for a new person
 
 ```bash
-python face_camera_recognizer.py --train --name {Your Name} --samples 30
+python main.py --train --name {Your Name} --samples 30
 ```
 
 - A camera window will open.
@@ -45,7 +45,7 @@ python face_camera_recognizer.py --train --name {Your Name} --samples 30
 ### 2) Start recognition
 
 ```bash
-python face_camera_recognizer.py --recognize
+python main.py --recognize
 ```
 
 - If the model is missing, the app will automatically train from the saved dataset.
